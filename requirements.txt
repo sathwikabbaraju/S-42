@@ -1,7 +1,7 @@
-streamlit
-pymongo
-pandas
-crewai
-langchain_openai
+streamlit==1.39.0
+pymongo==4.10.1
+pandas==1.5.3
+crewai==0.74.2
+langchain==0.3.4
+openai==1.52.0
 python-dotenv
-openai

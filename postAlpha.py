@@ -11,7 +11,7 @@ load_dotenv()
 
 openai_api_key = os.getenv('OPENAI_API_KEY')
 #openai_api_key = st.secrets["OPENAI_API_KEY"]
-
+#chromadb==0.5.15
 # Initialize Streamlit app
 st.title("Project S-42")
 st.subheader("Ask questions about BOQ's (BMS) data")

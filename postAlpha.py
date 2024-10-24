@@ -10,6 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 openai_api_key = os.getenv('OPENAI_API_KEY')
+openai_api_key = st.secrets["OPENAI_API_KEY"]
 
 # Initialize Streamlit app
 st.title("Project S-42")
